@@ -2,14 +2,82 @@ body {
   font-family: 'Open Sans', sans-serif;
   background-color: #674BAF;
   color: #FFFFFF;
-
+  background-image: url(../images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  text-align: center;
 }
 
 h1 {
   font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  height: 100vh;
+  width: 100vw;
+}
 
+.logo {
+  width: 120px;
+  align-self: flex-start;
+}
+
+#mockups {
+  height: 209px;
+}
+
+.info {
+  line-height: 24px;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+.btn {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #684BB1;
+  width: 200px;
+  height: 40px;
+  box-shadow: 0 2px 4px #311D7B;
+}
+
+#bootstrap-override:active, #bootstrap-override:hover {
+  background-color: #E880E8;
+  color: #fff;
+  border: none;
+
+}
+
+.social-media {
+  height: 28px;
+  width: 103.5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fab {
+  border-radius: 50%;
+  border: 1px solid white;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fab:active {
+  border-color: #FF52C1;
+  color: #FF52C1;
+}
 
 .attribution {
   font-size: 11px;
